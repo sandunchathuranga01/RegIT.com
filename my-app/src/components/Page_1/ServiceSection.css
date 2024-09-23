@@ -1,0 +1,91 @@
+.service-section {
+  background-color: #c2bfbf;
+  padding: 50px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  width:1375px;
+  height:auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 100%;
+  text-align: center; 
+  margin-bottom: 20px; /* Adjust bottom margin */
+}
+
+.service-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px; /* Adjust margin between h2 and subtitle */
+  color: black;
+  text-align: center; /* Ensure heading is centered */
+  display: block;
+  width: 100%; /* Full width ensures it's centered properly */
+}
+
+.highlight {
+  color: blue; /* Highlight 'you?' */
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+  text-align: center;
+  display: block; /* Ensure it's on its own line */
+  width: 100%; /* Full width for proper centering */
+  margin-top: 0; /* Remove extra margin */
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%; /* Full width for grid layout */
+  max-width: 1200px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 500px;
+}
+
+.service-card h3 {
+  margin-top: 10px;
+  font-size: 22px;
+  color: black;
+}
+
+.service-card p {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.icon img {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .service-grid {
+      grid-template-columns: 1fr; /* Single column layout on smaller screens */
+  }
+}

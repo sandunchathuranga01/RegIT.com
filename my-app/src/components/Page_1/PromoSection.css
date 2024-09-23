@@ -1,0 +1,64 @@
+/* Styling for the Promo Section */
+.promo-section {
+    background: linear-gradient(135deg, #c135eb, #0d2fa3); /* Gradient background */
+    padding: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1375px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  /* Left text section */
+  .promo-text {
+    max-width: 50%;
+  }
+  
+  .promo-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .promo-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .spotify-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .spotify-logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .spotify-logo span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Right image section */
+  .promo-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px; /* Optional: Curve for phone image */
+  }
+  
