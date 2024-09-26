@@ -1,0 +1,38 @@
+body {
+  background-color: #e0e0e0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  padding: 20px;
+  margin: 20px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+}
+
+p {
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: black;
+}
