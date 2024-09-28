@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom'; // Import Link for navigation
 import logo from './logo.png';
-
 
 function Header() {
   return (
@@ -9,18 +9,17 @@ function Header() {
       <div className="container">
         {/* Logo */}
         <div className="logo">
-        <img src={logo} alt="Logo" />
-          
+          <img src={logo} alt="Logo" />
         </div>
 
         {/* Navigation Menu */}
         <nav className="nav">
           <ul>
-            <li><a href="/" className="active">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/services">Service</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><Link to="/" className="active">Home</Link></li> {/* Use Link for navigation */}
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/services">Service</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/blog">Blog</Link></li>
           </ul>
         </nav>
 
