@@ -1,0 +1,54 @@
+.six-d-container {
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 50px;
+    width: 1375px;
+    margin: 0 auto 30px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.process-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #6166DC;
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.process-step {
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.process-step h1 {
+    font-size: 5rem;
+    color: #e2e2e2;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.process-step h3 {
+    font-size: 1.5rem;
+    color: #292929;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-top: 0;
+
+}
+
+.process-step p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+    text-align: center;
+}

@@ -10,6 +10,9 @@ import PortfolioSection from "./components/Page_1/PortfolioSection";
 
 import Asection01 from "./components/About_US/Asection01";
 import Asection02 from "./components/About_US/Asection02";
+import Asection03 from "./components/About_US/Asection03";
+import Asection04 from "./components/About_US/Asection04";
+import Asection05 from "./components/About_US/Asection05";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -30,6 +33,9 @@ function AboutPage() {
     <>
       <Asection01 />
       <Asection02 />
+      <Asection03 />
+      <Asection04 />
+      <Asection05 />
     </>
   );
 }
