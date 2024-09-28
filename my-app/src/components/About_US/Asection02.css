@@ -1,29 +1,30 @@
-
-.container {
+.asection02-container {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
-  width: 80%;
+  padding: 30px;
+  border-radius: 20px;
+  width: 1375px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .card {
-  background-color: rgb(255, 255, 255);
-  border-radius: 50px;
+  background-color: white;
+  border-radius: 15px;
   padding: 20px;
-  margin: 20px;
   width: 30%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 50px 0px 50px;
 }
 
-h2 {
-  text-align: center;
+.card h3 {
   font-size: 1.5em;
-  color: black;
+  margin-bottom: 10px;
 }
 
-p {
-  text-align: center;
+.card p {
   font-size: 1em;
-  line-height: 1.5em;
-  color: black;
+  line-height: 1.5;
 }

@@ -1,12 +1,17 @@
-import React from 'react';
-import './App.css';
-import Header from './components/HeaderFooter/Header';
-import HeroSection from './components/Page_1/HeroSection';
-import PromoSection from './components/Page_1/PromoSection';
-import ServiceSection from './components/Page_1/ServiceSection';
-import PortfolioSection from './components/Page_1/PortfolioSection';
-import Footer from './components/HeaderFooter/Footer';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from "react";
+import "./App.css";
+import Header from "./components/HeaderFooter/Header";
+import Footer from "./components/HeaderFooter/Footer";
+
+import HeroSection from "./components/Page_1/HeroSection";
+import PromoSection from "./components/Page_1/PromoSection";
+import ServiceSection from "./components/Page_1/ServiceSection";
+import PortfolioSection from "./components/Page_1/PortfolioSection";
+
+import Asection01 from "./components/About_US/Asection01";
+import Asection02 from "./components/About_US/Asection02";
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -23,7 +28,8 @@ function HomePage() {
 function AboutPage() {
   return (
     <>
-      
+      <Asection01 />
+      <Asection02 />
     </>
   );
 }
@@ -36,7 +42,7 @@ function App() {
         <Routes>
           {/* Route for the Home page */}
           <Route path="/" element={<HomePage />} />
-          
+
           {/* Route for the About page */}
           <Route path="/about" element={<AboutPage />} />
         </Routes>

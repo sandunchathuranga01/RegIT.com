@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(209, 209, 209);
+}
+
 .Hero-section {
   background-image: url("./AboutUs_ForMutualAdvantage_1920x1080.jpg");
   background-size: cover;
