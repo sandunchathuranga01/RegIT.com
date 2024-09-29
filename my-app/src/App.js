@@ -14,6 +14,10 @@ import Asection03 from "./components/About_US/Asection03";
 import Asection04 from "./components/About_US/Asection04";
 import Asection05 from "./components/About_US/Asection05";
 
+import Osection01 from "./components/OurProduct/Osection01";
+import AvailableProdut from "./components/OurProduct/AvailableProdut";
+import UpComingProduct from "./components/OurProduct/UpComingProduct";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function HomePage() {
@@ -40,6 +44,17 @@ function AboutPage() {
   );
 }
 
+//Our product Component
+function OurProduct() {
+  return (
+    <>
+      <Osection01 />
+      <AvailableProdut />
+      <UpComingProduct />
+    </>
+  );
+}
+
 function App() {
   return (
     <Router>
@@ -51,6 +66,9 @@ function App() {
 
           {/* Route for the About page */}
           <Route path="/about" element={<AboutPage />} />
+
+          {/* Route for the Our product */}
+          <Route path="/OurProduct" element={<OurProduct />} />
         </Routes>
         <Footer />
       </div>

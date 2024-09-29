@@ -1,0 +1,53 @@
+.available-products-container {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    border-radius: 50px;
+    width: 1375px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+    /* Add flexbox to center the product cards */
+    display: flex;
+    flex-direction: column; /* Align the items in a vertical direction */
+    align-items: center; /* Horizontally center items */
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-align: left;
+    width: 100%; /* Ensure the heading stretches the full width */
+  }
+  
+  .more_details {
+    margin-right: 20px;
+    text-align: right;
+    width: 100%; /* Stretch to full width to right-align text */
+  }
+  
+  .product-card {
+    width: 90%; /* Ensure the cards are 50% of the container width */
+    height: 300px;
+    background-image: url("./AboutUs_ForMutualAdvantage_1920x1080.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  
+    /* Center the cards horizontally within the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .scroll-indicator {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: black;
+  }
+  
