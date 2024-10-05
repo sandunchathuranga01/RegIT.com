@@ -1,0 +1,148 @@
+.tools-section {
+  background-color: #e0e0e0; /* Light grey background */
+  border-radius: 50px;
+  padding: 50px;
+  text-align: center;
+  width: 1375px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: -5px;
+}
+
+h3 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #5865f2; /* Blue color for 'covered' */
+}
+
+.description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  height: 100px;
+}
+
+.tool-card {
+  background-color: #d9d9d9;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 16px;
+}
+
+.tool-card.active {
+  background-color: #a3a6ff; /* Highlighted background for active */
+  transform: translateY(-10px);
+}
+
+.tool-card:hover {
+  background-color: #cfcfcf;
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tools-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+/* Common styling for design, backend, frontend, database, and server icons */
+.design-icons, .backend-icons, .frontend-icons, .database-icons, .server-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .design-icons img, .backend-icons img, .frontend-icons img, .database-icons img, .server-icons img {
+    width: 50px; /* Adjust the size as per your preference */
+    height: 50px;
+    transition: transform 0.3s ease;
+  }
+  
+  .design-icons img:hover, .backend-icons img:hover, .frontend-icons img:hover, .database-icons img:hover, .server-icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  .tools-section {
+    background-color: #e0e0e0; 
+    border-radius: 50px;
+    padding: 60px 50px; 
+    text-align: center;
+    width: 100%;
+    max-width: 1375px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    height: 100px;
+  }
+  
+  .tool-card {
+    background-color: #d9d9d9;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .tool-card.active {
+    background-color: #a3a6ff; /* Highlighted background for active */
+    transform: translateY(-10px);
+  }
+  
+  .tool-card:hover {
+    background-color: #cfcfcf;
+    transform: translateY(-5px);
+  }
+  
+  @media (max-width: 768px) {
+    .tools-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tools-grid {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  }
+  

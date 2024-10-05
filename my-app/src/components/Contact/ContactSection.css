@@ -1,0 +1,34 @@
+.contact-section {
+  background-image: url("./contact.png"); /* Make sure to add the correct image path */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  padding: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1375px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.contact-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-content p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 0;
+}
