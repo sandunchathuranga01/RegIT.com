@@ -3,16 +3,16 @@ import "./App.css";
 import Header from "./components/HeaderFooter/Header";
 import Footer from "./components/HeaderFooter/Footer";
 
-import HeroSection from "./components/Page_1/HeroSection";
-import PromoSection from "./components/Page_1/PromoSection";
-import ServiceSection from "./components/Page_1/ServiceSection";
-import PortfolioSection from "./components/Page_1/PortfolioSection";
+import HeroSection from "./components/LandingPage/HeroSection";
+import PromoSection from "./components/LandingPage/PromoSection";
+import ServiceSection from "./components/LandingPage/ServiceSection";
+import PortfolioSection from "./components/LandingPage/PortfolioSection";
 
-import Asection01 from "./components/About_US/Asection01";
-import Asection02 from "./components/About_US/Asection02";
-import Asection03 from "./components/About_US/Asection03";
-import Asection04 from "./components/About_US/Asection04";
-import Asection05 from "./components/About_US/Asection05";
+import Asection01 from "./components/AboutUs/Asection01";
+import Asection02 from "./components/AboutUs/Asection02";
+import Asection03 from "./components/AboutUs/Asection03";
+import Asection04 from "./components/AboutUs/Asection04";
+import Asection05 from "./components/AboutUs/Asection05";
 
 import Osection01 from "./components/OurProduct/Osection01";
 import AvailableProdut from "./components/OurProduct/AvailableProdut";
