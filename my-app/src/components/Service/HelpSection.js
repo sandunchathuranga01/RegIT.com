@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import './HelpSection.css'; // Add this CSS for styling
-import uxIcon from './ux.png';
-import webAppIcon from './web.png';
-import mobileAppIcon from './mobile.png';
-import devOpsIcon from './dev.png';
-import consultingIcon from './consult.png';
-import supportIcon from './support.png';
+import uxIcon from '../../Assets/PageCovers/product example.jpg';
+import webAppIcon from '../../Assets/PageCovers/product example.jpg';
+import mobileAppIcon from '../../Assets/PageCovers/product example.jpg';
+import devOpsIcon from '../../Assets/PageCovers/product example.jpg';
+import consultingIcon from '../../Assets/PageCovers/product example.jpg';
+import supportIcon from '../../Assets/PageCovers/product example.jpg';
 
 function HelpSection() {
     const serviceDetails = [

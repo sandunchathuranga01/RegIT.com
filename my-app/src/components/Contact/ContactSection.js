@@ -1,6 +1,5 @@
 import React from "react";
 import "./ContactSection.css";
-import contactImage from "./contact.png";
 
 function ContactSection() {
   return (

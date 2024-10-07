@@ -14,6 +14,15 @@ import Asection03 from "./components/AboutUs/Asection03";
 import Asection04 from "./components/AboutUs/Asection04";
 import Asection05 from "./components/AboutUs/Asection05";
 
+import ContactFormSection from "./components/Contact/ContactFormSection";
+import ContactInfoSection from "./components/Contact/ContactInfoSection";
+import ContactSection from "./components/Contact/ContactSection";
+import SubscribeSection from "./components/Contact/SubscribeSection";
+
+import DomainSearchSection from "./components/Service/DomainSearchSection";
+import ServiceInfoSection from "./components/Service/ServiceInfoSection";
+import ToolsSection from "./components/Service/ToolsSection";
+
 import Osection01 from "./components/OurProduct/Osection01";
 import AvailableProdut from "./components/OurProduct/AvailableProdut";
 import UpComingProduct from "./components/OurProduct/UpComingProduct";
@@ -44,6 +53,30 @@ function AboutPage() {
   );
 }
 
+//Our service Component
+function Service() {
+  return (
+    <>
+    <ServiceInfoSection />
+    <ToolsSection />
+    <DomainSearchSection />
+      
+    </>
+  );
+}
+
+//Our contact Component
+function Contact() {
+  return (
+    <>
+      <ContactSection />
+      <ContactFormSection />
+      <ContactInfoSection />
+      <SubscribeSection />
+    </>
+  );
+}
+
 //Our product Component
 function OurProduct() {
   return (
@@ -66,6 +99,12 @@ function App() {
 
           {/* Route for the About page */}
           <Route path="/about" element={<AboutPage />} />
+
+          {/* Route for the Our service */}
+          <Route path="/services" element={<Service />} />
+
+          {/* Route for the Our contact */}
+          <Route path="/contact" element={<Contact />} />
 
           {/* Route for the Our product */}
           <Route path="/OurProduct" element={<OurProduct />} />

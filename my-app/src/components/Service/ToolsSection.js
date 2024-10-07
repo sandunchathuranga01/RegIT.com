@@ -1,35 +1,35 @@
 import React, { useState } from 'react';
 import './ToolsSection.css';
 // Assuming you have imported the icons in your project
-import figmaIcon from './ux.png';
-import canvaIcon from './web.png';
-import photoshopIcon from './dev.png';
-import sketchIcon from './consult.png';
+import figmaIcon from '../../Assets/ICONS/Technology/Figma.png';
+import canvaIcon from '../../Assets/ICONS/Technology/Canva.png';
+import photoshopIcon from '../../Assets/ICONS/Technology/Photoshop.png';
+import sketchIcon from '../../Assets/ICONS/Technology/AndroidStudio.png'; //import correct icon
 
-import reactIcon from './ux.png';
-import bootstrapIcon from './ux.png';
-import htmlIcon from './ux.png';
-import cssIcon from './ux.png';
-import angularIcon from './ux.png';
-import jsIcon from './ux.png';
-import flutterIcon from './ux.png';
-import dartIcon from './ux.png';
-import androidIcon from './ux.png';
+import reactIcon from '../../Assets/ICONS/Technology/React.png';
+import bootstrapIcon from '../../Assets/ICONS/Technology/Bootstrap.png';
+import htmlIcon from '../../Assets/ICONS/Technology/Html.png';
+import cssIcon from '../../Assets/ICONS/Technology/CSS.png';
+import angularIcon from '../../Assets/ICONS/Technology/Angular.png';
+import jsIcon from '../../Assets/ICONS/Technology/JS.png';
+import flutterIcon from '../../Assets/ICONS/Technology/Flutter.png';
+import dartIcon from '../../Assets/ICONS/Technology/Dart.png';
+import androidIcon from '../../Assets/ICONS/Technology/AndroidStudio.png';
 
-import springIcon from './ux.png';
-import dotNetIcon from './ux.png';
-import djangoIcon from './ux.png';
-import nodejsIcon from './ux.png';
+import springIcon from '../../Assets/ICONS/Technology/SpringBoot.png';
+import dotNetIcon from '../../Assets/ICONS/Technology/AndroidStudio.png'; //import correct icon
+import djangoIcon from '../../Assets/ICONS/Technology/DJango.png';
+import nodejsIcon from '../../Assets/ICONS/Technology/Nodejs.png';
 
-import firebaseIcon from './ux.png';
-import mongodbIcon from './ux.png';
-import mysqlIcon from './ux.png';
+import firebaseIcon from '../../Assets/ICONS/Technology/Firebase.png';
+import mongodbIcon from '../../Assets/ICONS/Technology/Mongodb.png';
+import mysqlIcon from '../../Assets/ICONS/Technology/MySQL.png';
 
 // New server and domain partner icons
-import hostingIcon from './ux.png';
-import lkDomainIcon from './ux.png';
-import godaddyIcon from './ux.png';
-import digitalOceanIcon from './ux.png';
+import hostingIcon from '../../Assets/ICONS/Host and Domain/Hostinger.png';
+import lkDomainIcon from '../../Assets/ICONS/Host and Domain/DotLK.png';
+import godaddyIcon from '../../Assets/ICONS/Host and Domain/GoDaddy.png';
+import digitalOceanIcon from '../../Assets/ICONS/Host and Domain/Porkbun.png';
 
 function ToolsSection() {
     const [activeIndex, setActiveIndex] = useState(0);

@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactInfoSection.css"; // Create this CSS file
-import phoneIcon from "./phone.png";
+import phoneIcon from "../../Assets/PageCovers/contact us.png";
 
 function ContactInfoSection() {
   return (

@@ -1,5 +1,6 @@
 import React from "react";
-import "./SubscribeSection.css"; // Add your styles in this file
+import "../../Assets/PageCovers/product example.jpg"; // Add your styles in this file
+import "./SubscribeSection.css"
 
 function SubscribeSection() {
   return (

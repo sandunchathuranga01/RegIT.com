@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactFormSection.css"; // Add styles in this file
-import mapImage from "./map.png"; // Add image in this file
+import mapImage from "../../Assets/PageCovers/Screenshot 2024-10-07 092205.png"; // Add image in this file
 
 function ContactFormSection() {
   return (
