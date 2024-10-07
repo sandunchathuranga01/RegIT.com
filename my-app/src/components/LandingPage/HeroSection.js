@@ -21,11 +21,6 @@ function HeroSection() {
             <button className="quote-btn">Request Quote</button>
           </div>
         </div>
-
-        {/* Right section with graphical element */}
-        <div className="hero-graphic">
-          <img src="/path/to/graphic.png" alt="image" />
-        </div>
       </div>
     </section>
   );

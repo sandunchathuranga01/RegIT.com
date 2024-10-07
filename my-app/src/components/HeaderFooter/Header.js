@@ -6,7 +6,7 @@ import logo from './logo.png';
 function Header() {
   return (
     <header className="header">
-      <div className="container">
+      <div className="header-container">
         {/* Logo */}
         <div className="logo">
           <img src={logo} alt="Logo" />
@@ -34,3 +34,5 @@ function Header() {
 }
 
 export default Header;
+
+
