@@ -1,4 +1,4 @@
-.service-info-section {
+.OverProduct-Hero-section {
   background-image: url("../../Assets/PageCovers/cover\ 02.jpg");
   background-size: cover; /* Makes the background image cover the entire element */
   background-repeat: no-repeat; /* Ensures the image doesn't repeat */
@@ -15,21 +15,22 @@
   margin-top: 90px;
 }
 
-.service-info-section .containera {
+/* Left text section */
+.OverProduct-Hero-text {
   max-width: 1200px;
   margin: 0 auto;
   justify-content: center;
   text-align: center;
 }
 
-.contact-contenta h1 {
+.OverProduct-Hero-text h1 {
   font-size: var(--cover-header-font-size);
   color: var(--cover-text-color);
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.contact-contenta p {
+.OverProduct-Hero-text p {
   color: var(--cover-text-color);
   font-size: var(--cover-subHeader-font-size);
   font-weight: 300;

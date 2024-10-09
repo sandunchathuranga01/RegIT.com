@@ -1,34 +1,37 @@
 .contact-section {
-  background-image: url("../../Assets/PageCovers/cover\ 01.jpg"); /* Make sure to add the correct image path */
-  background-size: cover;
-  background-position: center;
-  border-radius: 50px;
+  background-image: url("../../Assets/PageCovers/cover\ 02.jpg");
+  background-size: cover; /* Makes the background image cover the entire element */
+  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
   padding: 50px;
-  color: white;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1375px;
-  height: auto;
+  width: 85%;
+  max-width: 1400px;
+  height: 200px;
   margin: 0 auto;
   margin-bottom: 30px;
+  margin-top: 90px;
 }
 
 .contact-section .container {
   max-width: 1200px;
   margin: 0 auto;
   justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .contact-content h1 {
-  font-size: 48px;
+  font-size: var(--cover-header-font-size);
+  color: var(--cover-text-color);
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .contact-content p {
-  font-size: 20px;
+  color: var(--cover-text-color);
+  font-size: var(--cover-subHeader-font-size);
   font-weight: 300;
   margin-top: 0;
 }

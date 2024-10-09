@@ -1,6 +1,9 @@
 .header {
   position: fixed;
   width: 100%;
+  top: 0;
+  z-index: 1000;
+
 
 }
 .header-container{
@@ -8,12 +11,11 @@
   padding: 15px ;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 0 0 40px 40px;
-  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%; /* Adjusted to 85% to keep space on both sides */
-  max-width: 1400px;
+  max-width: 1480px;
   margin: 0 auto; /* Center the container */
 }
 
@@ -49,8 +51,8 @@
 .join-us button {
   width: 120px;
   height: 40px;
-  background-color: #344f8a;
-  color: white;
+  background-color: var(--btn-color);
+  color: var(--btn-font-color);
   padding: 10px;
   border: none;
   border-radius: 50px;
@@ -60,5 +62,6 @@
 }
 
 .join-us button:hover {
-  background-color: #14203a;
+  background-color: var(--hover-btn-color);
+  color: var(--hover-btn-font-color);
 }

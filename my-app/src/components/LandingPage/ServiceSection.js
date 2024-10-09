@@ -1,6 +1,12 @@
 import React from 'react';
 import './ServiceSection.css';
 
+
+import UXDesignIcon from '../../Assets/ICONS/Services/ux-design.png';
+import WebApplicationIcon from '../../Assets/ICONS/Services/webApp.png';
+import MobileApplicationIcon from '../../Assets/ICONS/Services/MobileApplication.png';
+import HelpSupportIcon from '../../Assets/ICONS/Services/support.png';
+
 function ServiceSection() {
   return (
     <section className="service-section">
@@ -14,7 +20,7 @@ function ServiceSection() {
   <div className="service-grid">
     <div className="service-card">
       <div className="icon">
-        <img src="/path-to-icon1.png" alt="UX Design Icon" />
+        <img src={UXDesignIcon} alt="UX Design Icon" />
       </div>
       <h3>UX Design</h3>
       <p>
@@ -24,7 +30,7 @@ function ServiceSection() {
 
     <div className="service-card">
       <div className="icon">
-        <img src="/path-to-icon2.png" alt="Web Application Icon" />
+        <img src={WebApplicationIcon} alt="Web Application Icon" />
       </div>
       <h3>Web Application</h3>
       <p>
@@ -34,7 +40,7 @@ function ServiceSection() {
 
     <div className="service-card">
       <div className="icon">
-        <img src="/path-to-icon3.png" alt="Mobile Application Icon" />
+        <img src={MobileApplicationIcon} alt="Mobile Application Icon" />
       </div>
       <h3>Mobile Application</h3>
       <p>
@@ -44,7 +50,7 @@ function ServiceSection() {
 
     <div className="service-card">
       <div className="icon">
-        <img src="/path-to-icon4.png" alt="Help & Support Icon" />
+        <img src={HelpSupportIcon} alt="Help & Support Icon" />
       </div>
       <h3>Help & Support</h3>
       <p>

@@ -23,7 +23,7 @@ import DomainSearchSection from "./components/Service/DomainSearchSection";
 import ServiceInfoSection from "./components/Service/ServiceInfoSection";
 import ToolsSection from "./components/Service/ToolsSection";
 
-import Osection01 from "./components/OurProduct/Osection01";
+import Osection01 from "./components/OurProduct/ourProduct";
 import AvailableProdut from "./components/OurProduct/AvailableProdut";
 import UpComingProduct from "./components/OurProduct/UpComingProduct";
 

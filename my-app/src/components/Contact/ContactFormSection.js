@@ -11,7 +11,6 @@ function ContactFormSection() {
           <h2>
             Request Free <span className="highlight">Consultation</span>
           </h2>
-
           <form className="contact-form">
             <input type="text" placeholder="Your name" className="form-input" />
             <input

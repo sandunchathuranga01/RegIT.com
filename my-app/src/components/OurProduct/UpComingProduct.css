@@ -1,53 +1,64 @@
-.available-products-container {
-    background-color: rgb(255, 255, 255);
-    background-size: cover;
-    background-position: center;
-    padding: 50px;
-    border-radius: 50px;
-    width: 1375px;
-    height: auto;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    
-    /* Add flexbox to center the product cards */
-    display: flex;
-    flex-direction: column; /* Align the items in a vertical direction */
-    align-items: center; /* Horizontally center items */
-  }
-  
-  h2 {
-    font-size: 28px;
-    margin-bottom: 40px;
-    text-align: left;
-    width: 100%; /* Ensure the heading stretches the full width */
-  }
-  
-  .more_details {
-    margin-right: 20px;
-    text-align: right;
-    width: 100%; /* Stretch to full width to right-align text */
-  }
-  
-  .product-card {
-    width: 90%; /* Ensure the cards are 50% of the container width */
-    height: 300px;
-    background-image: url("./AboutUs_ForMutualAdvantage_1920x1080.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 50px;
-    margin-bottom: 50px;
-  
-    /* Center the cards horizontally within the container */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .scroll-indicator {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    font-size: 20px;
-    color: black;
-  }
-  
+.upcoming-products-section {
+  padding: 40px;
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  width: 85%;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.upcoming-products-section h2 {
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 products per row */
+  gap: 30px; /* Space between products */
+  justify-items: center; /* Center items horizontally */
+  align-items: center;
+}
+
+.product-card {
+  width: 75%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.product-image {
+  max-width: 300px;
+  max-height: 400px;
+  border-radius: 10px;
+}
+
+.more-btn-container {
+  display: flex;
+  justify-content: flex-end; /* Align "More" button to the right */
+  margin-top: 20px;
+}
+
+.more-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.more-btn:hover {
+  background-color: #0056b3;
+}

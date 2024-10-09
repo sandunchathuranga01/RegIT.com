@@ -1,12 +1,13 @@
 .service-section {
-  background-color: #c2bfbf;
+  background-color: var(--container-color);
   padding: 50px;
   border-radius: 50px;
   display: flex;
   flex-direction: column; 
   justify-content: center; 
   align-items: center; 
-  width:1375px;
+  width: 85%;
+  max-width: 1400px;
   height:auto;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -15,67 +16,72 @@
 .container {
   width: 100%;
   text-align: center; 
-  margin-bottom: 20px; /* Adjust bottom margin */
+  margin-bottom: 20px;
 }
 
 .service-section h2 {
-  font-size: 36px;
-  margin-bottom: 10px; /* Adjust margin between h2 and subtitle */
-  color: black;
-  text-align: center; /* Ensure heading is centered */
+  font-size: var(--Header-font-size);
+  margin-bottom: 10px; 
+  color: var(--Header-font-color);
+  text-align: center; 
   display: block;
-  width: 100%; /* Full width ensures it's centered properly */
+  width: 100%;
 }
 
-.highlight {
-  color: blue; /* Highlight 'you?' */
+.service-section span {
+  color: var(--highlight-color); 
 }
 
-.subtitle {
-  font-size: 16px;
-  color: #666;
+.service-section p {
+  font-size: var(--Header-explaination-font-size);
+  color: var(--Header-explaination-font-color);
   margin-bottom: 40px;
   text-align: center;
-  display: block; /* Ensure it's on its own line */
-  width: 100%; /* Full width for proper centering */
-  margin-top: 0; /* Remove extra margin */
+  display: block; 
+  width: 100%; 
+  margin-top: 0; 
 }
 
 .service-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  width: 100%; /* Full width for grid layout */
+  width: 100%; 
   max-width: 1200px;
 }
 
 .service-card {
-  background-color: #ffffff;
+  background-color:var(--box-color);
   padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   border-radius: 20px;
   text-align: left;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 500px;
+  margin: 5px;
+  width: auto;
 }
 
 .service-card h3 {
   margin-top: 10px;
-  font-size: 22px;
-  color: black;
+  font-size: var(--Secondary-Header-font-size);
+  color: var(--Secondary-Header-font-color);
 }
 
 .service-card p {
-  font-size: 16px;
-  color: #333;
+  font-size:var(--Paragraph-font-size);
+  color: var(--Paragraph-font-color);
   margin-top: 10px;
+  text-align: justify;
 }
 
 .icon {
   width: 50px;
   height: 50px;
+  margin: 10px 0px 10px 20px;
 }
 
 .icon img {

@@ -1,12 +1,13 @@
 .portfolio-section {
-    background-color: #c4bcbc;
+    background-color: var(--container-color);
     padding: 50px;
     border-radius: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:1375px;
+    width: 85%;
+    max-width: 1400px;
     height:auto;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -20,18 +21,18 @@
 }
 
 .portfolio-section h2 {
-    font-size: 36px;
+    font-size: var(--Header-font-size);
     margin-bottom: 20px;
-    color: black;
+    color: var(--Header-font-color);
     text-align: center;
     display: block;
     width: 100%;
 
 }
 
-.subtitle {
-    font-size: 16px;
-    color: #666;
+.portfolio-section p {
+    font-size: var(--Header-explaination-font-size);
+    color: var(--Header-explaination-font-color);
     margin-bottom: 40px;
     text-align: center;
     display: block;
@@ -53,8 +54,8 @@
 }
 
 .portfolio-item img {
-    width: 100%;
-    height: auto;
+    width:300px;
+    height: 300px;
     border-radius: 20px;
     object-fit: cover;
 }
@@ -64,16 +65,16 @@
 }
 
 .explore-btn {
-    background-color: transparent;
-    border: 2px solid black;
+    background-color: var(--btn-color);
     padding: 15px 30px;
     border-radius: 30px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: var(--btn-text-font-size);
     display: flex;
     justify-content: center;
     transition: all 0.3s ease;
     margin-left: 1000px;
+    color: var(--btn-font-color);
 }
 
 .explore-btn .arrow {
@@ -81,6 +82,6 @@
 }
 
 .explore-btn:hover {
-    background-color: black;
-    color: white;
+    background-color: var(--hover-btn-color);
+    color: var(--hover-btn-font-color);
 }

@@ -3,44 +3,43 @@
   --font: "Changa", sans-serif;
 
   /* font sizes and weights*/
-  --Header-font-size: 16px;
-  --Header-font-weight: bold;
-
-  --Secondary-Header-font-size: 24px;
-  --Secondary-Header-font-weight: bold;
+  --Header-font-size: 40px;
+  --Header-font-color:#131313;
 
   --Header-explaination-font-size: 18px;
-  --Header-explaination-font-weight: bold;
+  --Header-explaination-font-color:#131313;
+
+  --Secondary-Header-font-size: 18px;
+  --Secondary-Header-font-color:#131313;
 
   --Paragraph-font-size: 16px;
+  --Paragraph-font-color:#131313;
 
   --Secondary-Paragraph-font-size: 14px;
+  --Secondary-Paragraph-font-color:#131313;
 
   --btn-text-font-size: 16px;
-  --btn-text-font-weight: bold;
-
-  /* colors */
-  --primary-color: #131313;
-  --secondary-color: #b4b4b4;
-  --accent-color: #2966d8;
-  --text-color: #2c3b4b;
-
-  --background-color: #dadada;
-  --container-color: #eeeeee;
-  --box-color: #e9e9e9;
-
+  --btn-text-font-color:#131313;
   --btn-color: #000766;
   --btn-font-color: #cccccc;
+
+  --hover-btn-color: #660047;
+  --hover-btn-font-color: #cccccc;
+
+
+  --highlight-color: #0664f1;
+  --background-color: #d0d1d6;
+  --container-color: #f5f5f5;
+  --box-color: #e9e9e9;
+  --highlight-color: #0664f1;
+
+
+  --cover-text-color:#ffffff;
+  --cover-header-font-size: 48px;
+  --cover-subHeader-font-size: 20px;
 }
 
 body {
   background-color: var(--background-color);
-}
-
-container {
-  background-color: var(--container-color);
-}
-
-Hero-section {
-  background-color: var(--box-color);
+  font-family: var(--font);
 }

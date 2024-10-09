@@ -1,74 +1,69 @@
 import React from 'react';
-import './Footer.css';
+import './Footer.css'; // Import your CSS file
+
 import logo from './logo.png';
+import Facebook from '../../Assets/ICONS/Social media/facebook.png';
+import Email from '../../Assets/ICONS/Social media/gmail.png';     
+import Instagram from '../../Assets/ICONS/Social media/instagram.png';
+import LinkedIn from '../../Assets/ICONS/Social media/linkedin.png';
 
-
-function Footer() {
+const Footer = () => {
   return (
-    <footer className="footer-section">
-      <div className="container">
-        <div className="footer-content">
-          <div className="footer-column">
-          <div className="logo">
-            <img src={logo} alt="Logo" />
+    <footer className="footer">
+      <div className="footer-container">
+        <div className="logo">
+          <img src={logo} alt="RegIT Logo" className="logo-image" />
+          <p>Enhancing your digital presence with innovative IT solutions. Let us help you transform your business through technology.</p>
+        </div>
+
+        
+        <div className="quick-links">
+          <h3>Quick links</h3>
+          <ul>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#join">Join us</a></li>
+          </ul>
+        </div>
+        
+        <div className="services">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#ux-design">UX Design</a></li>
+            <li><a href="#mobile-dev">Mobile Application Dev</a></li>
+            <li><a href="#web-dev">Web Application Dev</a></li>
+            <li><a href="#support">24/7 Support</a></li>
+          </ul>
+        </div>
+        
+        <div className="footer-section contact">
+          <h3>Contact us</h3>
+          <p>No 98, Pahan uyana, Kumbuka north, Gonapola.</p>
+          <p>+94 78 463 8116</p>
+          <p><a href="mailto:info@regit.com">info@regit.com</a></p>
           
-            </div>
-            <p>
-              Enhancing your digital presence with innovative IT solutions. Let us help you transform your business through technology.
-            </p>
-          </div>
-
-          <div className="footer-column">
-            <h3>Quick links</h3>
-            <ul>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Join us</a></li>
-            </ul>
-          </div>
-
-          <div className="footer-column">
-            <h3>Services</h3>
-            <ul>
-              <li><a href="#">UX design</a></li>
-              <li><a href="#">Mobile Application Dev</a></li>
-              <li><a href="#">Web Application Dev</a></li>
-              <li><a href="#">24/7 Support</a></li>
-            </ul>
-          </div>
-
-          <div className="footer-column">
-            <h3>Contact us</h3>
-            <address>
-              No 98, Pahan uyana,<br />
-              Kumbuka north,<br />
-              Gonapola.<br />
-              +94 78 463 8116<br />
-              <a href="mailto:info@regit.com">info@regit.com</a>
-            </address>
-            <div className="footer-social">
-              <a href="#"><i className="fab fa-facebook"></i></a>
-              <a href="#"><i className="fab fa-twitter"></i></a>
-              <a href="#"><i className="fab fa-instagram"></i></a>
-              <a href="#"><i className="fab fa-linkedin"></i></a>
-            </div>
+          {/* Social Media Icons */}
+          <div className="social-icons">
+            <a href="#"><img src={Facebook} alt="Facebook" /></a>
+            <a href="#"><img src={Email} alt="Email" /></a>
+            <a href="#"><img src={Instagram} alt="Instagram" /></a>
+            <a href="#"><img src={LinkedIn} alt="LinkedIn" /></a>
           </div>
         </div>
-
-        <div className="footer-bottom">
-          <div className="subscribe-form">
-            <input type="email" placeholder="Enter email Address" />
-            <button>Subscribe</button>
-          </div>
-          <div>
-          <p>Copyright © 2024 RegIT. All Right Reserved</p></div>
+      </div>
+      
+      <div className="footer-bottom">
+        <div className="subscribe">
+          <input type="email" placeholder="Enter email Address" />
+          <button>Subscribe</button>
         </div>
+        <p>&copy; {new Date().getFullYear()} RegIT. All Rights Reserved.</p>
       </div>
     </footer>
   );
 }
 
-export default Footer;
+export default Footer;

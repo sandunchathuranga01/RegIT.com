@@ -5,8 +5,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1375px;
-  height: 250px;
+  height: auto;
+  width: 85%;
+  max-width: 1400px;
   margin: 0 auto;
   margin-bottom: 30px;
   flex-direction: column;
@@ -31,8 +32,8 @@ h2 {
 }
 
 .subtitle {
-  font-size: 14px;
-  color: #666;
+  text-align: center;
+  color: black;
   margin-bottom: 30px;
 }
 

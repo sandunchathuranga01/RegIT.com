@@ -1,41 +1,38 @@
-body {
-  background-color: rgb(209, 209, 209);
-}
-
-.Hero-section {
-  background-image: url("./AboutUs_ForMutualAdvantage_1920x1080.jpg");
-  background-size: cover;
-  background-position: center;
+.About-US-Hero-section {
+  background-image: url("../../Assets/PageCovers/cover\ 02.jpg");
+  background-size: cover; /* Makes the background image cover the entire element */
+  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
   padding: 50px;
   border-radius: 50px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 1375px;
-  height: auto;
+  width: 85%;
+  max-width: 1400px;
+  height: 200px;
   margin: 0 auto;
   margin-bottom: 30px;
+  margin-top: 90px;
 }
 
 /* Left text section */
-.Hero-text {
+.About-US-Hero-text {
   max-width: 50%;
-  align-items: center;
+  text-align: center;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  color: white !important;
 }
 
-.Hero-text h1 {
-  font-size: 48px;
+.About-US-Hero-text h1 {
+  font-size: var(--cover-header-font-size);
   font-weight: bold;
   margin-bottom: 20px;
-  text-align: center;
-  color: white;
+  color: var(--cover-text-color);
 }
 
-.Hero-text p {
-  font-size: 18px;
+.About-US-Hero-text p {
+  font-size: var(--cover-subHeader-font-size);
   margin-bottom: 30px;
-  color: white;
+  color: var(--cover-text-color);
 }

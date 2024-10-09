@@ -1,10 +1,10 @@
 import React from "react";
-import './Osection01.css';
+import './ourProduct.css';
 
 function Osection01() {
   return (
-    <section className="Hero-section">
-      <div className="Hero-text ">
+    <section className="OverProduct-Hero-section">
+      <div className="OverProduct-Hero-text ">
         <h1>Our Product</h1>
         <p>Update your Business with RegIT</p>
       </div>
