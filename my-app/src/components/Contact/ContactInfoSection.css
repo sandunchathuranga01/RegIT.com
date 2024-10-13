@@ -1,6 +1,6 @@
 .contact-info-section {
-  background-color: #cacaca;
-  padding: 0 50px 20px 50px;
+  background-color: var(--container-color);
+  padding: 50px;
   border-radius: 50px;
   text-align: center;
   justify-content: center;
@@ -19,21 +19,19 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  color: white;
+
 }
 
-.contact-info-section h2 {
-  font-size: 36px;
+.contact-info-section  h2 {
+  font-size: var(--Header-font-size);
+  color: var(--Header-font-color);
   margin-bottom: 10px;
 }
 
-.contact-info-section .highlight {
-  color: #4a56e2; /* Highlight color for "Touch?" */
-}
 
 .contact-info-section .description {
-  font-size: 16px;
-  color: #666;
+  font-size: var(--Header-explaination-font-size);
+  color:var(--Header-explaination-font-color);
   margin-bottom: 40px;
 }
 
@@ -74,7 +72,7 @@
 
 
 .contact-icon {
-  width: 350px;
+  width: 250px;
   margin-left: 200px;
 
 
@@ -89,7 +87,8 @@
 .icon {
 
   width: 20px;
-  margin-right: 10px; /* Add right margin to space the icons from the text */
-  color: #063cb1;
+  color: #5c8af0;
   margin-bottom: -20px;
+  height: auto;
+  margin: 10px 20px -5px 20px;
 }

@@ -1,9 +1,10 @@
 /* Container and General Styles */
 .leadership-container {
-    background-color: #f2f2f2;
-    padding: 40px;
-    border-radius: 15px;
-    width: 80%;
+    background-color: var(--container-color);
+    padding: 50px;
+    border-radius: 50px;
+    width: 85%;
+    max-width: 1400px;
     margin: 0 auto;
     text-align: center;
     font-family: 'Arial', sans-serif;
@@ -11,17 +12,18 @@
 }
 
 .leadership-heading {
-    font-size: 2rem;
+    font-size: var(--Header-font-size);
+    color: var(--Header-font-color);
     margin-bottom: 10px;
 }
 
 .highlight {
-    color: #6166DC;
+    color:var(--highlight-color);
 }
 
 .leadership-description {
-    font-size: 1rem;
-    color: #666;
+    font-size: var(--Header-explaination-font-size);
+    color: var(--Header-explaination-font-color);
     margin-bottom: 30px;
 }
 
@@ -50,7 +52,7 @@
 
 .leadership-image {
     width: 300px;
-    height: 350px;
+    height: 400px;
     object-fit: cover;
     border-radius: 50px; /* Rounded corners for image */
 }
@@ -73,10 +75,12 @@
 
 .leadership-info h3 {
     font-size: 1.2rem;
-    margin: 0;
+    margin: 0 10px;
+    text-align: left;
 }
 
 .leadership-info p {
     font-size: 0.9rem;
-    margin: 5px 0 0;
+    margin: 0 10px;
+    text-align: left;
 }

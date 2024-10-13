@@ -3,7 +3,7 @@
     background-image: url('../../Assets/PageCovers/main\ cover.jpg');
     background-size: cover; /* Makes the background image cover the entire element */
     background-repeat: no-repeat; /* Ensures the image doesn't repeat */
-    padding: 50px;
+    padding: 100px 50px 100px 50px;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@
   
   .hero-tagline p {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     color: #333;
   }
   
@@ -50,10 +50,11 @@
 
 
   .subtext {
-    font-size: 16px;
+    font-size: 18px;
     color: #524f4f;
     margin-bottom: 40px;
     margin-right: 10px;
+    text-align: left;
   }
   
   .hero-buttons {
@@ -68,23 +69,43 @@
     border-radius: 30px;
     font-size: 16px;
     cursor: pointer;
+    width: 200px;
   }
+    /* Right graphic section */
+    .hero-graphic img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 20px;
+    }
+
+
   
   .contact-btn {
-    background-color: #d3d3d3;
-    color: #333;
+    background-color: var(--btn-color);
+    color: var(--btn-font-color);
+    font-weight: bold;
   }
   
   .quote-btn {
     background-color: #fff;
-    border: 2px solid #333;
-    color: #333;
+    border: 2px solid var(--btn-color);
+    color: var(--btn-color);
+    font-weight: bold;
   }
+
+  .contact-btn:hover {
+    background-color: #ffffff;
+    color: var(--btn-color);
+    border: 2px solid var(--btn-color);
+
+  }
+
+  .quote-btn:hover {
+    background-color: var(--btn-color);
+    color: #fff;
+    border: 2px solid var(--btn-color);
+  }
+
   
-  /* Right graphic section */
-  .hero-graphic img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px;
-  }
+
   

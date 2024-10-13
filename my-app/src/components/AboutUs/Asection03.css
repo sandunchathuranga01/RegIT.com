@@ -1,29 +1,31 @@
 .six-d-container {
-    background-color: #f2f2f2;
-    padding: 30px;
+    background-color: var(--container-color);
+    padding: 50px;
     border-radius: 50px;
-    width: 1375px;
+    width: 85%;
+    max-width: 1400px;
     margin: 0 auto 30px auto;
     font-family: 'Arial', sans-serif;
 }
 
 .process-heading {
-    font-size: 2rem;
+    font-size:var(--Header-font-size) ;
+    color: var(--Header-font-color);
     margin-bottom: 20px;
 }
 
 .highlight {
-    color: #6166DC;
+    color: var(--highlight-color);
 }
 
 .process-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 30px;
 }
 
 .process-step {
-    background-color: white;
+    background-color:var(--box-color);
     padding: 20px;
     border-radius: 50px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -38,8 +40,8 @@
 }
 
 .process-step h3 {
-    font-size: 1.5rem;
-    color: #292929;
+    font-size: var(--Secondary-Header-font-size);
+    color: var(--Secondary-Header-font-color);
     margin-bottom: 10px;
     text-align: left;
     margin-top: 0;
@@ -47,8 +49,10 @@
 }
 
 .process-step p {
-    font-size: 0.9rem;
-    color: #666;
+    font-size: var(--Secondary-Paragraph-font-size);
+    color: var(--Secondary-Paragraph-font-color);
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
+    text-align: justify;
+    margin-bottom: 10px;
 }

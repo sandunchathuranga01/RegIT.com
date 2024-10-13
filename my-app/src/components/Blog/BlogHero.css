@@ -1,0 +1,39 @@
+.Blog-Hero-section {
+    background-image: url("../../Assets/PageCovers/cover\ 02.jpg");
+    background-size: cover; /* Makes the background image cover the entire element */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    padding: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    max-width: 1400px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 90px;
+  }
+  
+  /* Left text section */
+  .Blog-Hero-text {
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .Blog-Hero-text h1 {
+    font-size: var(--cover-header-font-size);
+    color: var(--cover-text-color);
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .Blog-Hero-text p {
+    color: var(--cover-text-color);
+    font-size: var(--cover-subHeader-font-size);
+    font-weight: 300;
+    margin-top: 0;
+  }
+  

@@ -1,45 +1,49 @@
 :root {
-  /* font details */
+  /* font family */
   --font: "Changa", sans-serif;
 
   /* font sizes and weights*/
-  --Header-font-size: 40px;
-  --Header-font-color:#131313;
+  --Header-font-size: 36px;
+  --Header-font-color: #131313;
 
   --Header-explaination-font-size: 18px;
-  --Header-explaination-font-color:#131313;
-
-  --Secondary-Header-font-size: 18px;
-  --Secondary-Header-font-color:#131313;
+  --Header-explaination-font-color: #131313;
 
   --Paragraph-font-size: 16px;
-  --Paragraph-font-color:#131313;
+  --Paragraph-font-color: #131313;
 
-  --Secondary-Paragraph-font-size: 14px;
-  --Secondary-Paragraph-font-color:#131313;
+  --Secondary-Header-font-size: 24px;
+  --Secondary-Header-font-color: #131313;
 
+  --Secondary-Paragraph-font-size: 16px;
+  --Secondary-Paragraph-font-color: #131313;
+
+  /* page cover formatting */
+  --cover-text-color: #ffffff;
+  --cover-header-font-size: 48px;
+  --cover-subHeader-font-size: 20px;
+
+  /* btn formatting */
   --btn-text-font-size: 16px;
-  --btn-text-font-color:#131313;
+
   --btn-color: #000766;
   --btn-font-color: #cccccc;
 
-  --hover-btn-color: #660047;
-  --hover-btn-font-color: #cccccc;
-
+  --hover-btn-color: #297fff;
+  --hover-btn-font-color: #000000;
 
   --highlight-color: #0664f1;
-  --background-color: #d0d1d6;
-  --container-color: #f5f5f5;
-  --box-color: #e9e9e9;
-  --highlight-color: #0664f1;
 
-
-  --cover-text-color:#ffffff;
-  --cover-header-font-size: 48px;
-  --cover-subHeader-font-size: 20px;
+  /* colors */
+  --container-color: #ecececd2;
+  --box-color: #ffffff;
 }
 
 body {
-  background-color: var(--background-color);
+  background: url("../../my-app/src/Assets/Plexus_Background_White.mp4");
   font-family: var(--font);
+  overflow-y: scroll;
+}
+.highlight {
+  color: var(--highlight-color); 
 }

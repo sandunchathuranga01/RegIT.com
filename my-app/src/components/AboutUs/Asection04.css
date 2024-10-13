@@ -1,70 +1,55 @@
 .why-choose-us-container {
-    background-color: #f2f2f2;
-    padding: 0;
-    border-radius: 50px;
-    width: 85%;
-    margin: 0 auto;
-    text-align: center;
-    font-family: "Arial", sans-serif;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column; /* Allows stacking of heading and content */
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Make the container take full screen height */
-  }
-  
-  .choose-us-heading {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .highlight {
-    color: #6166dc;
-  }
-  
-  .choose-us-content {
-    display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
-    gap: 40px; /* Adds space between the list and the image */
-    max-width: 1200px; /* Constrain the total width */
-    width: 100%; /* Ensure it takes full available width */
-  }
-  
-  .choose-us-list {
-    background-color: #b4c6ff;
-    padding: 70px;
-    border-radius: 50px;
-    text-align: left;
-    font-weight: bold;
-    width: 500px; /* Ensure it expands to available space */
-    box-sizing: border-box;
-  }
-  
-  .choose-us-list ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .choose-us-list li {
-    font-size: 1.5rem;
-    margin: 10px 0;
-    line-height: 2.5;
-    color: #333;
-  }
-  
-  .choose-us-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 300px;
-    width: 100%;
-  }
-  
-  .choose-us-image img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: var(--container-color);
+  border-radius: 50px;
+  width: 85%;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.choose-us-heading {
+  font-size: var(--Header-font-size);
+  color: var(--Header-font-color);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.choose-us-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.choose-us-list {
+  flex: 1;
+  padding: 20px;
+}
+
+.choose-us-list ul {
+  list-style-type: disc; /* Add bullets */
+  padding-left: 70px; /* Space for bullets */
+  margin: 0;
+}
+
+.choose-us-list li {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.choose-us-image {
+  flex: 1;
+  padding: 20px;
+}
+
+.choose-us-image img {
+  width: 500px;
+  height: 300px;
+  border-radius: 50px;
+}

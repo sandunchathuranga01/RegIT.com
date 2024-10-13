@@ -10,7 +10,7 @@
 }
 
 .card {
-  background-color: white;
+  background-color: var(--box-color);
   border-radius: 15px;
   padding: 20px;
   width: 30%;
@@ -20,11 +20,13 @@
 }
 
 .card h3 {
-  font-size: 1.5em;
+  font-size: var(--Secondary-Header-font-size);
+  color: var(--Secondary-Header-font-color);
   margin-bottom: 10px;
 }
 
 .card p {
-  font-size: 1em;
+  font-size: var(--Secondary-Paragraph-font-size);
+  color: var(--Secondary-Paragraph-font-color);
   line-height: 1.5;
 }
