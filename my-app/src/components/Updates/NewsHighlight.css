@@ -1,0 +1,61 @@
+.news-highlight {
+    background-image: url("../../Assets/PageCovers/cover\ 03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    max-width: 1400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 90px;
+    margin-top: -280px;
+  }
+  
+  .overlay {
+    text-align: left;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin-bottom: -120px;
+  }
+  
+  .overlay h1 {
+    font-size: 32px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .overlay h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .overlay p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .read-more-btn {
+    padding: 10px 20px;
+    background-color: #5865f2;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+  }
+  
+  .overlay .read-more-btn {
+    margin-right: 10px;
+  }
+  .read-more-btn:hover {
+    background-color: #4046c9;
+  }
+  

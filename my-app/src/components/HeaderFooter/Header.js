@@ -20,7 +20,8 @@ function Header() {
             <li><Link to="/services">Service</Link></li>
             <li><Link to="/contact">Contact</Link></li>
             {/* <li><Link to="/OurProduct">Our Product</Link></li> */}
-            <li><Link to="/blog">Blog</Link></li>
+            <li><Link to="/updates">Updates</Link></li>
+            <li><Link to="/readmore">Read More</Link></li>
           </ul>
         </nav>
 
