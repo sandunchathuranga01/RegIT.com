@@ -1,0 +1,54 @@
+.connect-container {
+  background-color: var(--container-color);
+  padding: 50px;
+  border-radius: 50px;
+  width: 85%;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.connect-container h2 {
+  font-size: var(--Header-font-size);
+  color: var(--Header-font-color);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.connect-container p {
+  text-align: center;
+  font-size: var(--Secondary-Header-font-size);
+  color: var(--Secondary-Header-font-color);
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* Aligns the button to the right */
+  margin-top: 20px;
+}
+
+.connect-btn {
+  margin-top: 30px;
+  background-color: var(--btn-color);
+  color: var(--btn-font-color);
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px;
+  font-size: var(--btn-text-font-size);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.connect-btn:hover {
+  background-color: var(--hover-btn-color);
+  color: var(--hover-btn-font-color);
+}

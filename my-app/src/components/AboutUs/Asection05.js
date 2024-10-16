@@ -36,7 +36,7 @@ const Asection05 = () => {
           </div>
           <div className="leadership-info">
             <h3>Miss. Nihinsa Bandara</h3>
-            <p>Chief technology officer (CTO)</p>
+            <p>Chief External Affairs Officer</p>
           </div>
         </div>
         <div className="leadership-card">

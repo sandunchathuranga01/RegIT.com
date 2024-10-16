@@ -59,8 +59,8 @@
 
 /* Info Box Styles */
 .leadership-info {
-    background-color: #6166DC;
-    color: white;
+    background-color: var(--btn-color);
+    color: var(--btn-font-color);
     border-radius: 50px;
     padding: 10px;
     width: 250px;

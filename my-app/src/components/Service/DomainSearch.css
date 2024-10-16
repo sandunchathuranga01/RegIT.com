@@ -1,0 +1,39 @@
+.domain-search-container {
+  background-color: var(--container-color);
+  padding: 50px;
+  border-radius: 50px;
+  width: 85%;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.search-label {
+  font-size: var(--Header-font-size);
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--Header-font-color);
+}
+
+.domain-icon-container {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.domain-icon {
+  width: auto;
+  height: 60px;
+  transition: transform 0.3s ease;
+}
+
+.domain-icon:hover {
+  transform: scale(1.1);
+}

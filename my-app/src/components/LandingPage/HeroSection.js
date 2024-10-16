@@ -10,8 +10,8 @@ function HeroSection() {
           <div className="hero-tagline">
             <p>EMPOWER YOUR BUSINESS</p>
           </div>
-          <h1>Excellent IT services <br></br>
-            <div className="a">for your success</div></h1>
+          <h1 className="Hero">Excellent IT services 
+            for your success</h1>
           <p className="subtext">
             Empowering businesses with cutting-edge software, seamless integrations, and exceptional support. 
             Transforming your vision into reality with custom solutions.

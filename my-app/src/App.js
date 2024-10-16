@@ -27,9 +27,11 @@ import ContactSection from "./components/Contact/ContactSection";
 import SubscribeSection from "./components/Contact/SubscribeSection";
 
 // Service Sections
-import DomainSearchSection from "./components/Service/DomainSearchSection";
+import DomainSearch from "./components/Service/DomainSearch";
 import ServiceInfoSection from "./components/Service/ServiceInfoSection";
 import ToolsSection from "./components/Service/ToolsSection";
+import HowCanHelp from "./components/Service/HowCanHelp";
+import SwipeToConnect from "./components/Service/ConnectWhatsapp";
 
 // Our Product Sections
 import Osection01 from "./components/OurProduct/ourProduct";
@@ -69,9 +71,12 @@ function AboutPage() {
 function ServicePage() {
   return (
     <>
+
       <ServiceInfoSection />
+      <HowCanHelp/>
       <ToolsSection />
-      <DomainSearchSection />
+      <DomainSearch />
+      <SwipeToConnect />
     </>
   );
 }
