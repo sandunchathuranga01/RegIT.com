@@ -35,7 +35,7 @@ function ContactInfoSection() {
             <FaPhoneAlt className="icon" size={24} /> +94 78 463 8116
           </h4>
           <h4>
-            <FaPhoneAlt className="icon" size={24} /> +94 78 463 8116
+            <FaPhoneAlt className="icon" size={24} /> +94 70 532 2534
           </h4>
         </div>
 

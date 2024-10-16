@@ -1,0 +1,38 @@
+.news-updates {
+    background-image: url("../../Assets/PageCovers/cover\ 03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    max-width: 1400px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 90px;
+  }
+  
+  .news-updates .containera {
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .news-content h1 {
+    font-size: var(--cover-header-font-size);
+    color: var(--cover-text-color);
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .news-content p {
+    color: var(--cover-text-color);
+    font-size: var(--cover-subHeader-font-size);
+    font-weight: 300;
+    margin-top: 0;
+  }
+  

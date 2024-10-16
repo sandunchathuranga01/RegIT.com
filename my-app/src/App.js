@@ -37,11 +37,21 @@ import Osection01 from "./components/OurProduct/ourProduct";
 // import AvailableProduct from "./components/OurProduct/AvailableProdut";
 // import UpComingProduct from "./components/OurProduct/UpComingProduct";
 
+//Updates Section
+import NewsUpdates from "./components/Updates/NewsUpdates";
+import NewsCarousel from "./components/Updates/NewsCarousel";
+import NewsHighlight from "./components/Updates/NewsHighlight";
+import NewsGrid from "./components/Updates/NewsGrid";
+
+import ReadMore from "./components/ReadMore/ReadMore";
+
 // Video Background Component
 import VideoBackground from "./components/VideoBackground/VideoBackground";
 
 
 import BlogHero from "./components/Blog/BlogHero";
+
+
 
 function HomePage() {
   return (
@@ -97,11 +107,22 @@ function OurProductPage() {
   );
 }
 
-function BlogPage() {
+function UpdatesPage() {
   return (
     <>
-      <BlogHero />
+      <NewsUpdates />
+      <NewsCarousel />
+      <NewsHighlight />
+      <NewsGrid/>
 
+    </>
+  );
+}
+
+function ReadMorePage() {
+  return (
+    <>
+      <ReadMore />
     </>
   );
 }
@@ -123,7 +144,8 @@ function App() {
           <Route path="/services" element={<ServicePage />} />
           <Route path="/contact" element={<ContactPage />} />
           {/* <Route path="/OurProduct" element={<OurProductPage />} /> */}
-          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/updates" element={<UpdatesPage />} />
+          <Route path="/readmore" element={<ReadMorePage />} />
         </Routes>
 
         {/* Footer */}
