@@ -8,11 +8,11 @@
 		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>BackendDev</groupId>
-	<artifactId>RegIT.com</artifactId>
+	<groupId>com.RegIT</groupId>
+	<artifactId>RegIT.Backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>RegIT.com</name>
-	<description>This is  Backend of RegIT.com using Spring boot</description>
+	<name>RegIT.Backend</name>
+	<description>This is backend for RegIT official web site</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -32,10 +32,6 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
 		<dependency>
@@ -43,12 +39,6 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
-		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
