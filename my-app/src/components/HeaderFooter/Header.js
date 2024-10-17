@@ -1,9 +1,11 @@
 import React from 'react';
 import './Header.css';
-import { Link } from 'react-router-dom'; // Import Link for navigation
+import { Link, useLocation } from 'react-router-dom'; // Import useLocation to determine active link
 import logo from './logo.png';
 
 function Header() {
+  const location = useLocation(); // Get the current location
+
   return (
     <header className="header">
       <div className="header-container">
@@ -15,13 +17,48 @@ function Header() {
         {/* Navigation Menu */}
         <nav className="nav">
           <ul>
-            <li><Link to="/" className="active">Home</Link></li> {/* Use Link for navigation */}
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/services">Service</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-            {/* <li><Link to="/OurProduct">Our Product</Link></li> */}
-            <li><Link to="/updates">Updates</Link></li>
-            <li><Link to="/readmore">Read More</Link></li>
+            <li>
+              <Link 
+                to="/" 
+                className={location.pathname === '/' ? 'active' : ''}> {/* Add 'active' if current route is '/' */}
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link 
+                to="/about" 
+                className={location.pathname === '/about' ? 'active' : ''}> {/* Add 'active' if current route is '/about' */}
+                About
+              </Link>
+            </li>
+            <li>
+              <Link 
+                to="/services" 
+                className={location.pathname === '/services' ? 'active' : ''}> {/* Add 'active' if current route is '/services' */}
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link 
+                to="/contact" 
+                className={location.pathname === '/contact' ? 'active' : ''}> {/* Add 'active' if current route is '/contact' */}
+                Contact
+              </Link>
+            </li>
+            <li>
+              <Link 
+                to="/updates" 
+                className={location.pathname === '/updates' ? 'active' : ''}> {/* Add 'active' if current route is '/updates' */}
+                Updates
+              </Link>
+            </li>
+            <li>
+              <Link 
+                to="/readmore" 
+                className={location.pathname === '/readmore' ? 'active' : ''}> {/* Add 'active' if current route is '/readmore' */}
+                Read More
+              </Link>
+            </li>
           </ul>
         </nav>
 
@@ -35,5 +72,3 @@ function Header() {
 }
 
 export default Header;
-
-

@@ -16,7 +16,6 @@ const Footer = () => {
           <p><div>Enhancing your digital presence with</div> innovative IT solutions. <div>Let us help you transform your </div>business through technology.</p>
         </div>
 
-        
         <div className="quick-links">
           <h3>Quick links</h3>
           <ul>
